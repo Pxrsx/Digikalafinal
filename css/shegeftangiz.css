@@ -157,4 +157,5 @@ div.allcontent>div>img:nth-of-type(3)
 div.allcontent>div>span {
     margin: 10px;
     font-size: 13px;
+    cursor: pointer;
 }
