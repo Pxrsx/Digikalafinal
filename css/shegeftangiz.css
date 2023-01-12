@@ -1,0 +1,159 @@
+div.shegefttop{
+    position: relative;
+    top: 150px;
+    width: 100%;
+    height:auto;
+    background-image:url(../pic/shegeftangiz/upper\ bg.png) ;
+    background-repeat: no-repeat;
+}
+div.shegefttop>img {
+    position: absolute;
+    left: calc(50% - 20% / 2);
+    top: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+div.shegefticons {
+    position: absolute;
+    top: 125px ;
+    width: 100%;
+    height: 100px;
+    background-color: #ef3d52;
+    text-align: center;
+}
+div.shegefticons>figure {
+    display: inline-block;
+    margin: 20px;
+    color: white;
+    cursor: pointer;
+}
+.shegeftp2 {
+    position: relative;
+    top: 400px;
+    left: 0px;
+    width: 100%;
+    height: auto;
+    border: 1px solid rgba(128, 128, 128, 0.288);
+    border-radius: 5px;
+}
+.shegeftp2>div {
+    width: 97%;
+    height: auto;
+}
+.shegeftp2>div>img {
+    width: 25px;
+    display: inline-block;
+    vertical-align: bottom;
+    margin: 20px 20px 0 0;
+}
+.shegeftp2>div>h3 {
+    display: inline-block;
+    margin-right: 10px;
+}
+.redline {
+    width: 70px;
+    height: 1.5px;
+    background-color: red;
+    margin: 15px 20px 20px 0;
+}
+.incredibles {
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    text-align: center;
+    margin: auto;
+}
+.incredibles>div {
+    width: 200px;
+    padding: 5px;
+    border-left: 1px solid rgba(128, 128, 128, 0.286);
+    display: inline-block;
+    cursor: pointer;
+    margin: auto;
+    vertical-align: top;
+    overflow-x: auto;
+}
+.incredibles>div>h6 {
+    color: red;
+    margin: 10px 0 10px 0;
+}
+.incredibles>div>img:nth-of-type(1) {
+    display: block;
+    margin-bottom: 10px;
+}
+.incredibles>div>img:nth-of-type(2) {
+    width: 150px;
+    height: 150px;
+}
+.incredibles>div>img:nth-of-type(3) {
+    width: 190px;
+}
+.shegeftsuper2 {
+    position: relative;
+    top:420px ;
+    width: 100%;
+    right: 0;
+}
+.shegeftsuper2>a>img {
+    width: 1510px;
+}
+div.all{
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 450px;
+    padding: 10px;
+}
+.alltop>img {
+    vertical-align: top;
+    margin-right: 10px;
+    width: 20px;
+}
+.alltop>h3 {
+    margin: 10px 10px 30px 0;
+}
+.alltop>span {
+    margin: 0 10px 0 10px;
+    color: gray;
+    font-size: 14px;
+}
+.alltop>span:nth-of-type(1) {
+    color: black;
+}
+.alltop>span:nth-of-type(2) {
+    color: #ef3d52;
+}
+div.allcontent {
+    width: 100%;
+    height: auto;
+}
+div.allcontent>div {
+    width: 19.5%;
+    display: inline-block;
+    margin-top: 20px ;
+    border-left: 1px solid rgba(128, 128, 128, 0.12);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.12);
+    transition-duration: 300ms;
+    padding: 5px;
+}
+div.allcontent>div:nth-last-of-type(1) {
+    border-left: unset;
+
+    border-bottom: 1px solid rgba(128, 128, 128, 0.12);
+}
+div.allcontent>div:hover {
+    box-shadow: 1px 1px 15px grey;
+    transition-duration: 300ms;
+}
+div.allcontent>div>img:nth-of-type(2) {
+    width: 200px;
+}
+div.allcontent>div>img:nth-of-type(3)
+{
+    width: 100%;
+    height: auto;
+}
+div.allcontent>div>span {
+    margin: 10px;
+    font-size: 13px;
+}
