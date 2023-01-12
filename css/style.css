@@ -300,15 +300,17 @@ div.underswiper>div:last-child>a>figure>img{
 }
 
 div.shegeftsuper{
-    width: 1200px;
-    height:95px;
+    width: 100%;
+    height:auto;
     position: relative;
     top: 180px;
-    right: 10px;
     cursor: pointer;
+    right: calc(50% - 100% / 2);
 }
 div.shegeftsuper>img {
-    scale: 0.855;
+    display: block;
+    margin: auto;
+    scale: 0.86;
 }
 div.undersuper {
     width: 100%;
@@ -322,13 +324,14 @@ div.undersuper>div {
     width: 20%;
     height: auto;
     display: inline-block;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin: auto;
 }
 div.undersuper>div>img {
     width: 300px;
     cursor: pointer;
     border-radius: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 div.dastebandi {
     width: 100%;
@@ -358,6 +361,7 @@ div.underdaste>div {
     width: 41%;
     display: inline-block;
     cursor: pointer;
+    
 }
 div.underdaste>div>img {
     width: 600px;

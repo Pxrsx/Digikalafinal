@@ -92,7 +92,7 @@ div.shegefticons>figure {
     position: relative;
     top:420px ;
     width: 100%;
-    right: 0;
+    margin: auto;
 }
 .shegeftsuper2>a>img {
     width: 1510px;
